@@ -94,3 +94,21 @@ Penjelasan:
 - Melihat HTTP header website.
 <img width="408" height="230" alt="16" src="https://github.com/user-attachments/assets/36459460-fc02-4c26-9490-3e9829ea6938" />
 
+- Install ssh server: $sudo apt install opensss-server
+<img width="624" height="210" alt="17" src="https://github.com/user-attachments/assets/7bf228e3-d561-458c-b78c-d1307761f794" />
+
+- Menampilkan direktori home user: $echo $HOME
+- - Menampilkan user aktif: $echo $USER
+<img width="266" height="102" alt="18" src="https://github.com/user-attachments/assets/7f794042-890e-467f-a453-4cf1796a5902" />
+
+- Melihat semua command yang sudah diketikkan: $history
+<img width="215" height="46" alt="19" src="https://github.com/user-attachments/assets/a36ec4d8-a993-4fdb-ae0d-08cbe0207fff" />
+
+- Mengakses sebagai server/admin: $sudo su
+- Jika ingin kembali ke user: ctrl+d
+<img width="273" height="125" alt="20" src="https://github.com/user-attachments/assets/7d1b64a9-4624-4d6e-861d-d5b2ea81f3b3" />
+
+- Menampilkan lama sistem berjalan: $uptime
+- Melihat penggunaan RAM: $free -h
+- Melihat kapasitas disk: $df -h
+<img width="624" height="219" alt="21" src="https://github.com/user-attachments/assets/ad83049d-c164-4c61-b0c3-2da2413ee473" />
