@@ -141,6 +141,7 @@ Berikut ini konfigurasi Network agar ubuntu dapat mengakses internet.
 <img width="840" height="296" alt="image" src="https://github.com/user-attachments/assets/02497685-c0c7-47b3-b6a8-1d22aba8818a" />
 
 #4. Ping Google.com/8.8.8.8 untuk memastikan VM terkoneksi ke internet
+
 <img width="352" height="375" alt="image" src="https://github.com/user-attachments/assets/5b6c7476-b912-4f56-87fc-aed63208ab89" />
 
 
