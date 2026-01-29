@@ -1,28 +1,26 @@
 ##1. Membuat sebuah diagram jaringan komputer dengan spesifikasi:
 
     - IP Class C : 192.168.4.xxx
-    - CIDR Block : 192.168.11.0/24
+    - CIDR Block : 192.168.4.0/24
     - Jumlah Client : 4
 
-<img width="514" height="470" alt="Diagram network drawio (1)" src="https://github.com/user-attachments/assets/12923f84-7ff2-4d38-a89f-f29253b627e3" />
-
+<img width="514" height="430" alt="Network Diagram drawio" src="https://github.com/user-attachments/assets/9f50914f-9f79-4431-83ac-0f673d786b9c" />
 
 Penjelasan:
-- CIDR Blok 192.168.11.0/24 = subnetmask 255.255.255.0. 
 
-  Artinya:
-  - Network: 192.168.11.0
-  - Broadcast: 192.168.11.255
-  - Range host :192.168.11.1-192.168.11.254 (ip unuk host yang dapat digunakan)
-- Router memiliki 2 interface
-  1. WAN
-    - IP: 192.168.11.1
-    - Network: 192.168.11.0/24
-    - Yang berfungsi menyambungkan ke internet
-  2. LAN
-    - IP: 192.168.4.1
-    - Network: 192.168.4.0/24
-    - Yang berfungsi sebagai Gateway jaringan lokal(menghubungkan jaringan lokal dengan internet)
+- Diagram diatas menggambarkan sebuah jaringan lokal(LAN) yang menggunakan IP Class C dengan CIDR Block 192.168.1.0/24, yang terdiri dari:
+    - 1 Router
+    - 4 Device Client
+
+- CIDR Blok 192.168.4.0/24
+Artinya:
+  - Network: 192.168.4.0
+  - Broadcast: 192.168.4.255
+  - Range host :192.168.4.1-192.168.11.254 (ip unuk host yang dapat digunakan)
+
+- Fungsi Router:
+    - sebagai pintu keluar masuk masuk data jaringan (Gateway).
+    - Mengatur Jalur paket data (Routing)
 
 - Semua device berada di satu jaringan LAN, disini IP bisa diatur secara DHCP(otomatis mengisi IP dengan IP host yang sudah diatur) dan Static
 - Untuk yang tertera di gambar, menggunakan static maka:
