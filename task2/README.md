@@ -23,11 +23,14 @@ Artinya:
     - Mengatur Jalur paket data (Routing)
 
 - Semua device berada di satu jaringan LAN, disini IP bisa diatur secara DHCP(otomatis mengisi IP dengan IP host yang sudah diatur) dan Static
-- Untuk yang tertera di gambar, menggunakan static maka:
-  - PC1 IP Address: 192.168.4.10
-  - PC2 IP Address: 192.168.4.20
-  - PC3 IP Address: 192.168.4.30
-  - PC4 IP Address: 192.168.4.40 
+
+    Untuk IP yang tertera di gambar:
+
+  - Router IP Address: 192.168.4.1, Broadcast: 255.255.255.0, Network: 192.168.4.0
+  - PC1 IP Address: 192.168.4.10, Broadcast: 255.255.255.0, Network: 192.168.4.0
+  - PC2 IP Address: 192.168.4.20, Broadcast: 255.255.255.0, Network: 192.168.4.0
+  - PC3 IP Address: 192.168.4.30, Broadcast: 255.255.255.0, Network: 192.168.4.0
+  - PC4 IP Address: 192.168.4.40 , Broadcast: 255.255.255.0, Network: 192.168.4.0
 
 ##2. Perbedaan antara SH (Shell) dan BASH (Bourne-Again Shell)
 - SH (Shell) merupakan generasi awal yang digunakan pada sistem Unix/Linux sebagai command interpreter dasar. Shell memiliki fitur yang sangat minimal dan hanya mendukung fungsi-fungsi dasar untuk menjalankan perintah dan script. SH memiliki syntax yang terbatas dan tidak mendukung fitur modern array, auto-complete, dan scripting lanjutan.
