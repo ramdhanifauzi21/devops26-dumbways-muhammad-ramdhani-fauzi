@@ -1,14 +1,15 @@
 ##1. Akses Server Melalui Windows Terminal
 -
 1. Pastikan server sudah install openssh server. Jika belum install terlebih dahulu dengan mengetikkan command: **$sudo apt install openssh-server**
+
     <img width="420" height="96" alt="1" src="https://github.com/user-attachments/assets/509468a4-3141-423c-a18c-7cf49d8f7aac" />
 
 
-2. Pastikan ssh aktif dengan status 'running' dengan command: **$sudo systemctl status ssh**
+3. Pastikan ssh aktif dengan status 'running' dengan command: **$sudo systemctl status ssh**
     <img width="418" height="192" alt="2" src="https://github.com/user-attachments/assets/a05f1ac9-2006-46c2-ad97-271afc0548b4" />
 
 
-3. Akses ssh melalui windows terminal mengetikkan command: **ssh uzi@192.168.1.208**, dan memasukkan password server
+4. Akses ssh melalui windows terminal mengetikkan command: **ssh uzi@192.168.1.208**, dan memasukkan password server
 
     dengan keterangan uzi = nama user yang ada di server dan 192.168.1.208= IP Servernya. Untuk melihat IP di server bisa mengetikkan command: **$ip a**
  <img width="624" height="389" alt="3" src="https://github.com/user-attachments/assets/4b93bba1-48d9-420c-b18d-78b9c1f59dd0" />
@@ -22,6 +23,7 @@
 <img width="624" height="309" alt="key1" src="https://github.com/user-attachments/assets/0955d946-d7c9-4464-835c-e40d203aec2e" />
 
    Disini saya menyimpan di folder **C:\Users|\USER/.ssh/kunci** dengan nama file kunci, yang nantinya akan ada 2 file di folder .ssh yaitu **kunci** dan **kunci.pub**
+
 <img width="624" height="260" alt="key2" src="https://github.com/user-attachments/assets/1c03b4b8-b243-4284-b39e-f44ca5f6355d" />
 
 
@@ -59,6 +61,7 @@ Artinya:
 4. - Mengamankan folder SSH agar hanya owner yang bisa akses :**$chmod 700 ~/.ssh**
    - Mengamankan daftar public key agar tidak bisa dimanipulasi user lain: **$chmod 600 ~/.ssh/authorized_keys** 
 <img width="624" height="147" alt="key10" src="https://github.com/user-attachments/assets/84d6ab8c-8e38-43e9-9d5d-f9ab7483e462" />
+
 Artinya Hanya owner yang dapat masuk folder, lihat isi, dan ubah isi.
 
 
@@ -106,6 +109,7 @@ Artinya Hanya owner yang dapat masuk folder, lihat isi, dan ubah isi.
 <img width="589" height="162" alt="ufw1" src="https://github.com/user-attachments/assets/d3d7836d-2da3-4413-90f8-9d33d7b97149" />
 
 Kondisi awal status untuk ufw 'inactive', untuk melihat status: **$sudo ufw status**
+
 <img width="305" height="36" alt="ufw3" src="https://github.com/user-attachments/assets/a043850f-2df3-41ed-bc9b-2cbb8668717b" />
 
 
