@@ -113,7 +113,10 @@ Kondisi awal status untuk ufw 'inactive', untuk melihat status: **$sudo ufw stat
 <img width="305" height="36" alt="ufw3" src="https://github.com/user-attachments/assets/a043850f-2df3-41ed-bc9b-2cbb8668717b" />
 
 
-2. Membuka akses untuk port 22, 80, 443, 3000, 5000 dan 6969:
+2. Mengaktifkan UFW : **$sudo ufw enable**
+<img width="624" height="53" alt="ufw4" src="https://github.com/user-attachments/assets/cfcc0c1a-a38b-4939-84ba-1e21db0be1bd" />
+
+3. Membuka akses untuk port 22, 80, 443, 3000, 5000 dan 6969:
    - **$sudo ufw allow 22**
    - **$sudo ufw allow 80**
    - **$sudo ufw allow 443**
