@@ -16,7 +16,7 @@ Penjelasan:
 Artinya:
   - Network: 192.168.4.0
   - Broadcast: 192.168.4.255
-  - Range host :192.168.4.1-192.168.11.254 (ip unuk host yang dapat digunakan)
+  - Range host :192.168.4.1-192.168.4.254 (ip unuk host yang dapat digunakan)
 
 - Fungsi Router:
     - sebagai pintu keluar masuk masuk data jaringan (Gateway).
