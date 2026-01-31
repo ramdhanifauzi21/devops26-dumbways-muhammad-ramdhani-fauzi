@@ -1,4 +1,4 @@
-##1. Membuat sebuah diagram jaringan komputer dengan spesifikasi:
+## 1. Membuat sebuah diagram jaringan komputer dengan spesifikasi:
 
     - IP Class C : 192.168.4.xxx
     - CIDR Block : 192.168.4.0/24
@@ -32,14 +32,14 @@ Artinya:
   - PC3 IP Address: 192.168.4.30, Broadcast: 255.255.255.0, Network: 192.168.4.0
   - PC4 IP Address: 192.168.4.40 , Broadcast: 255.255.255.0, Network: 192.168.4.0
 
-##2. Perbedaan antara SH (Shell) dan BASH (Bourne-Again Shell)
+## 2. Perbedaan antara SH (Shell) dan BASH (Bourne-Again Shell)
 - SH (Shell) merupakan generasi awal yang digunakan pada sistem Unix/Linux sebagai command interpreter dasar. Shell memiliki fitur yang sangat minimal dan hanya mendukung fungsi-fungsi dasar untuk menjalankan perintah dan script. SH memiliki syntax yang terbatas dan tidak mendukung fitur modern array, auto-complete, dan scripting lanjutan.
 - Sedang BASH (Bourne-Again Shell) merupakan pengembangan dari SH yang dirancang sebagai versi modern dengan fitur yang jauh lebih lengkap. BASH mendukung auto-complete, command history, scripting lanjutan, array variable expansion yang  lebih fleksibel, serta kemudahan debugging script.
 
-  Jadi secara sederhana SH adalah shell dasar yang bersifat legacy dan minimalis, sedangkan BASH merupakan versi pengembangan yang lebih modern, powerfull, dan user-friendly.
+  Jadi secara sederhana Shel adalah shell dasar yang bersifat legacy dan minimalis, sedangkan BASH merupakan versi pengembangan yang lebih modern, powerfull, dan user-friendly.
 
 
-##3. Dokumentasi/Kumpulan Command Linux
+## 3. Dokumentasi/Kumpulan Command Linux
 
 - Update daftar repository package: **$sudo apt update**
 <img width="610" height="210" alt="1" src="https://github.com/user-attachments/assets/1f66a034-b3f0-4c17-a1a8-dd43b8702897" />
@@ -117,7 +117,7 @@ Artinya:
 <img width="624" height="210" alt="17" src="https://github.com/user-attachments/assets/7bf228e3-d561-458c-b78c-d1307761f794" />
 
 - Menampilkan direktori home user: **$echo $HOME**
-- - Menampilkan user aktif: **$echo $USER**
+- Menampilkan user aktif: **$echo $USER**
 <img width="266" height="102" alt="18" src="https://github.com/user-attachments/assets/7f794042-890e-467f-a453-4cf1796a5902" />
 
 - Melihat semua command yang sudah diketikkan: **$history**
