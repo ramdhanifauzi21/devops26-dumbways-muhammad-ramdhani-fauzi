@@ -1,10 +1,11 @@
-#Day 1 - Introduction to DevOps
-#Task1
+# Day 1 - Introduction to DevOps
 
-#1. Pengertian DevOps
+# Task1
+
+# 1. Pengertian DevOps
 DevOps Engineer atau Development Opration Engineer Adalah pendekatan kerja yang menghubungkan tim development dan tim operation yang memiliki tugas untuk mempercepat proses pengembangan aplikasi, meningkatkan kualitas sistem, serta mengotomatikan proses building, testing, deployment agar lebih efesien dan stabil.
 
-#2. Install Ubuntu Server
+# 2. Install Ubuntu Server
 1. Download ISO Ubuntu Server 22.04 LTS dari website resmi Ubuntu
 2. Buat VM baru di VirtualBox
 3. Setting:
@@ -119,7 +120,7 @@ DevOps Engineer atau Development Opration Engineer Adalah pendekatan kerja yang 
 
 
 
-#3. Menggunakan IP Address xxx.xxx.xxx.208 untuk server VM
+# 3. Menggunakan IP Address xxx.xxx.xxx.208 untuk server VM
 Berikut ini konfigurasi Network agar ubuntu dapat mengakses internet.
 - Enter dibagian ‘enp03’ lalu enter dibagian ‘Edit IpV4’, pilih manual.
 - Isi bagian Subnet, Address, Gateway, dan Name Servers sesuai dengan koneksi di PC/Laptop Sendiri.
@@ -140,7 +141,9 @@ Berikut ini konfigurasi Network agar ubuntu dapat mengakses internet.
 
 <img width="840" height="296" alt="image" src="https://github.com/user-attachments/assets/02497685-c0c7-47b3-b6a8-1d22aba8818a" />
 
-#4. Ping Google.com/8.8.8.8 untuk memastikan VM terkoneksi ke internet
+# 4. Ping Google.com/8.8.8.8 untuk memastikan VM terkoneksi ke internet
+
+Jika tampilan seperti ini pada saat ping ke 8.8.8.8. Maka tandanya VM memiiki akses internet.
 
 <img width="352" height="375" alt="image" src="https://github.com/user-attachments/assets/5b6c7476-b912-4f56-87fc-aed63208ab89" />
 
