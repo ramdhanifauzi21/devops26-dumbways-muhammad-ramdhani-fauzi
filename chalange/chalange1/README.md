@@ -9,7 +9,6 @@
 Penjelasan:
 - **#!/bin/bash** = Menentukan bahwa script ini dijalankan dengan bash shell.
 - **manipulation="text_data.txt"**      = Variabel yang diisi kan file dengan nama 'text_data.txt'
-- **PORTS=(22 80 443 3000 5000 6969)**  = Array bash berisi daftar port yang akan dibuka di UFW
 - **file_on()**      = Ini merupakan function yang dapat menjalankan manipulasi text(membuat file, menambahkan kata, mencari kata, menggati kata)
 - **echo "Hello Fauzi" > $manipulation**    = Memberi isi "Hello Fauzi" pada variabel manipulation
 - **echo "Saya sedang mempelajari Bash Script" >> $manipulation**  = Menambahkan isi "Saya sedang mempelajari Bash Script" ke baris dalam variabel manipulation tanpa menghapus isi sebelumnya
