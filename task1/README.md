@@ -3,7 +3,7 @@
 # Task1
 
 # 1. Pengertian DevOps
-DevOps Engineer atau Development Opration Engineer Adalah pendekatan kerja yang menghubungkan tim development dan tim operation yang memiliki tugas untuk mempercepat proses pengembangan aplikasi, meningkatkan kualitas sistem, serta mengotomatikan proses building, testing, deployment agar lebih efesien dan stabil.
+DevOps Engineer atau Development Opration Engineer Adalah pendekatan kerja yang menghubungkan tim development dan tim operation yang memiliki tugas untuk mempercepat proses pengembangan aplikasi, meningkatkan kualitas sistem, serta mengotomatiskan proses building, testing, deployment agar lebih efesien dan stabil.
 
 # 2. Install Ubuntu Server
 1. Download ISO Ubuntu Server 22.04 LTS dari website resmi Ubuntu
