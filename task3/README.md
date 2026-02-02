@@ -99,7 +99,7 @@ Artinya Hanya owner yang dapat masuk folder, lihat isi, dan ubah isi.
 <img width="317" height="134" alt="4-3" src="https://github.com/user-attachments/assets/65c3d11d-a88d-4b00-bdb7-5254db1d7281" />
 
 
-8. Membuat file file4 dan mengisi teks "hahaha" : **$echo "Hello DevOps" > file4**
+8. Membuat file file4 dan mengisi teks "hahaha" : **$echo "hahaha" > file4**
 <img width="336" height="70" alt="5" src="https://github.com/user-attachments/assets/04944c0b-61bc-4b0c-9dae-9857631d2281" />
 
 
