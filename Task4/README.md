@@ -54,12 +54,12 @@ Fase 'untracked' -> File-file yang masih baru dan belum masuk ke repository
 <img width="559" height="248" alt="stage" src="https://github.com/user-attachments/assets/6d218c4a-84b6-4344-be17-e99c610860bc" />
 
 
-Ini bisa disebut sebagai fase **stage** artinya Perubahannya sudah ditandai/ revisinya sudah ditandai
+Ini bisa disebut sebagai fase **staging** artinya Perubahannya sudah ditandai/ revisinya sudah ditandai
 
-12. Commit file agar menjadi bagian repository: **$git commit -m "Commit Pertama"**
+12. Commit file agar menjadi bagian repository: **$git commit -m "Commit Pertama"** Jangan lupa untuk memberi komen seperti 'commit Pertama' jika tidak maka perintah akan salah
 <img width="624" height="170" alt="commit" src="https://github.com/user-attachments/assets/8f7d2bb0-fc98-4a5c-9484-183acd2d72fd" />
 
-di status bisa dilihat bahwa file-file yang sebelumnya berada di fase stage sudah tidak ada, karna sudah di commit. Bisa disebut juga sebagai fase **Commited** (file yang sudah siap menjadi bagian repository). 
+di status bisa dilihat bahwa file-file yang sebelumnya berada di fase staging sudah tidak ada, karna sudah di commit. Bisa disebut juga sebagai fase **Commited** (file yang sudah siap menjadi bagian repository). 
 
 13. Menghubungkan repositorry server ke github
     - Buka Github -> Buat repository baru dengan nama yang sama seperti di server -> Create Repository
@@ -76,10 +76,69 @@ di status bisa dilihat bahwa file-file yang sebelumnya berada di fase stage suda
       <img width="624" height="80" alt="branch" src="https://github.com/user-attachments/assets/72c8e61b-fda7-4c11-8bd9-2019712de7ed" />
       
     - **$git push -u origin master**
+
       <img width="624" height="82" alt="push" src="https://github.com/user-attachments/assets/72a0facf-9942-41d6-a4ff-b05942424d54" />
 
-18. Buka Github -> repository devops26-dumbways-fauzi -> Jika filenya sudah ada maka tandanya **Berhasil**
+      Disini ternyata saya error
+16. Cek terlebih dahulu remote nya: **$git remote -v**
+<img width="624" height="66" alt="http" src="https://github.com/user-attachments/assets/f22bf214-b807-43ea-af9f-b99254f9c336" />
+
+disini repository saya masih pakai https, akan saya coba ubah
+
+17. Ubah repository HTTPS -> SSH: **$git remote set-url origin git@github.com:ramdhanifauzi21/devops26-dumbways-fauzi.git
+**
+<img width="624" height="65" alt="ubahhttp" src="https://github.com/user-attachments/assets/0547326a-ec70-4f8a-b428-673ba7f7459f" />
+
+Dan setelah di cek kembali, yang awalnya ada Https sekarang sudah tidak ada
+
+18. Push kembali: **$git push -u origin master** 
+<img width="624" height="170" alt="pushkembali" src="https://github.com/user-attachments/assets/36824c7d-49bd-4cf0-8f8e-81aac76255de" />
+
+Jika Seperti ini tandanya file-file yang ada diserver di direkrory ini sudah berada di github
+
+19. Buka Github -> repository devops26-dumbways-fauzi -> Jika filenya sudah ada maka tandanya **Berhasil**
+<img width="624" height="249" alt="berhasil" src="https://github.com/user-attachments/assets/d7685053-6060-40c1-a57d-1f7e284f5fb3" />
+
  
 ## 3. Manage Repository Menggunakan terminal
+Manage repository menggunakan terminal menggunakan perintah
+- **$git init**: Menginisialisasi repository Git di folder lokal
+- **$git status**: Mengecek status file (tracked / untracked)
+- **$git add .**: Menambahkan semua file ke staging area
+- **$git branch**: Melihat branch
+- **$git branch namabranch**: Menambahkan branch(cabang) baru
+- **$git checkout**: Mengganti branch
+- **$git commit**: Menyimpan perubahan ke Git
+- **$git remote add origin**: Menghubungkan repo lokal ke GitHub
+- **$git push**: Mengirim perubahan ke repository GitHub
+
+Case: saya ingin mengubah isi dari file1 dan mengirimkannya ke repository github
+- Disini saya menambahkan kata 'Selamat Pagi Fauzi' di file1
+<img width="624" height="80" alt="editfile" src="https://github.com/user-attachments/assets/83c7ada2-1389-4a8f-a062-70c7a0ff3819" />
+
+- Terlihat di status ada modified di file1
+<img width="624" height="199" alt="statusperubahan" src="https://github.com/user-attachments/assets/2c8d4676-3fee-4152-82f3-d2e5924598e3" />
+
+Misalkan tidak jadi untuk melakukan perubahan maka bisa menggunakan perintah: **$git restore namafile**
+
+- Masuk ke fase staging
+<img width="560" height="195" alt="image" src="https://github.com/user-attachments/assets/fbba3fa4-9d57-4873-a942-8d741dce9107" />
+
+- Commit file
+<img width="624" height="54" alt="commit" src="https://github.com/user-attachments/assets/d94b3df8-41d5-49a7-b1a5-152b360725d9" />
+
+- Push ke Github
+<img width="624" height="178" alt="push" src="https://github.com/user-attachments/assets/c35bdaa6-576a-4874-b16f-269c336a3cca" />
 
 ## 4. Mencari Perubahan Text Pada Suatu File di Github
+-  Masuk ke Github
+<img width="624" height="281" alt="tam" src="https://github.com/user-attachments/assets/8e86c85a-8a93-4949-ad47-359b18d40340" />
+
+terlihat di pinggir file1 commit nya menjadi 'Update file1'
+
+-  Bisa juga melihat Commit historynya
+<img width="624" height="341" alt="history" src="https://github.com/user-attachments/assets/bf733aa6-9b35-4c1d-99dd-26d68ee8b801" />
+
+-  Isi dari file1 yang sudah berubah, di tandai dengan wana hijau merupakan teks baru
+<img width="624" height="458" alt="isi" src="https://github.com/user-attachments/assets/8d544b84-0fc8-4445-bd40-63810336e5ea" />
+
