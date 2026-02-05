@@ -1,6 +1,7 @@
 # Task 5
 
 Semua Aplikasi bisa akses dengan **UFW ENABLE**
+
 <img width="504" height="403" alt="ufw" src="https://github.com/user-attachments/assets/f46b7400-c498-45c2-9340-a5dc9414fb72" />
 
 ## 1. NodeJs - Deploy App wayshub-frontend, Berjalan di Port 3000, dan Menggunakan NodeJS 10/12
