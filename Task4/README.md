@@ -28,7 +28,7 @@
 
 Jika sudah ada komen 'Hi ramdhanifauzi21! You've successfully authenticated, but GitHub does not provide shell access.' Maka sudah berhasil terhubung
 
-6. Membuat Direktory Baru dengan nama 'devops26-dumbways-fauzi': **$mkdir dumbways** Lalu masuk ke foldernya: **$cd dumbways**
+6. Membuat Direktory Baru dengan nama 'dumbways': **$mkdir dumbways** Lalu masuk ke foldernya: **$cd dumbways**
 <img width="774" height="89" alt="direktory" src="https://github.com/user-attachments/assets/bf57846e-b74b-4293-91ba-fcd35718b64c" />
 
 7. Menjadikan sebuah repository: **$git init devops26-dumbways-fauzi**
