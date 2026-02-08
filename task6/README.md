@@ -11,7 +11,7 @@ User/browser mengakses domain misalnya 'http://wayshub" ➜ Request pertama kali
 ➜ Web server akan memproses request tersebut dan menghasilkan response berupa halaman web atau data ➜ Response akan dikirm kembali ke nginx
 ➜ Nginx meneruskan response tersebut ke browser user sehingga website dapat ditampilkan.
 
-## 2. Membuat Reverse Proxy untuk Aplilkasi wayshub dan DomainMenggunakan fauzi.xyz
+## 2. Membuat Reverse Proxy untuk Aplilkasi wayshub dan Domain Menggunakan fauzi.xyz
 
 - Buka notepad terlebih dahulu dan jalankan sebagai administratos
 - Buka file host yang berada di **C:windows/system32/drivers/etc**
