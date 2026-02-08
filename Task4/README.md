@@ -8,8 +8,8 @@
 
 1. Pastikan terlebih dahulu di server sudah ada git
 2. Masukkan perintah:
-   - **#git config --global user.name ramdhanifauzi21** : Masukkan user Github
-   - **#git config --global user.email ramdhani24fauzi.com** : Masukkan email yang ada di Github
+   - **$git config --global user.name ramdhanifauzi21** : Masukkan user Github
+   - **$git config --global user.email ramdhani24fauzi.com** : Masukkan email yang ada di Github
    - **$git config --list** : Melihat list user dan email github
   
 <img width="624" height="115" alt="config" src="https://github.com/user-attachments/assets/666ac64d-e01a-4a10-bf3a-fa7959a780c4" />
