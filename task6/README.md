@@ -32,7 +32,7 @@ User/browser mengakses domain misalnya 'http://wayshub" ➜ Request pertama kali
 - Masuk ke folder /etc/nginx/sites-enabled: **$cd /etc/nginx/sites-enabled**
 <img width="624" height="87" alt="masukfolder" src="https://github.com/user-attachments/assets/d6148df5-a161-4d9d-90fb-4fa0cad7aab9" />
 
-- Buat dile baru dengan menambahkan sudo: **$sudo nano dumbflix.conf**, Karna setiap berada didalam folder etc harus bertindak sebagai admin
+- Buat file baru dengan menambahkan sudo: **$sudo nano dumbflix.conf**, Karna setiap berada didalam folder etc harus bertindak sebagai admin
 - Masukkan program dan save
  <img width="624" height="217" alt="program" src="https://github.com/user-attachments/assets/ed2676e1-523c-439e-aab2-aca09bcb2708" />
 
