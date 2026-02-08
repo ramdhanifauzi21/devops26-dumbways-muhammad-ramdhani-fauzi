@@ -34,7 +34,7 @@ Jika sudah ada komen 'Hi ramdhanifauzi21! You've successfully authenticated, but
 7. Menjadikan sebuah repository: **$git init devops26-dumbways-fauzi**
 <img width="624" height="196" alt="menjadi repo" src="https://github.com/user-attachments/assets/17cc1ac9-f89d-45f8-a9d2-359320c67fff" />
 
-Didalam baris pertama, terdapat hit yaitu 'master' sebagai branch
+Didalam baris pertama, terdapat hint yaitu 'master' sebagai branch
 
 8. - Masuk ke dalam direktory 'devops26-dumbways-fauzi': **$cd devops26-dumbways-fauzi**
    - Buat 3 file yang berisikan teks
